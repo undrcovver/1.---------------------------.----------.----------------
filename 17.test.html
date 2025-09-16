@@ -7,97 +7,38 @@
 </head>
 <body>
     <script>
-        // let a = parseInt(prompt("Enter the digit: "));
-        // let rez = a%2==0?true:false;
-        // alert(rez);
-
-//         ■ Задания, в которых необходимо использовать IF.
-// ■
-// 1. Запросить у пользователя число и определить, оно поло-
-// жительное, отрицательное или ноль.
-
-    //     let number = parseInt(prompt("Enter the number: "));
-    //     if (number > 0)
+        // 1.
+    //     count = parseInt(prompt("Enter the count: "))
+    //     res=''
+    //     while (count > 0)
     // {
-    //     alert("Your number is good");
+    //     res+='#'
+    //     count --
     // }
-    //         else if (number < 0)
+    // alert(res)
+
+
+    // 2.
+    // num = parseInt(prompt("Enter your num: "))
+    // let start = 0
+    // let res=''
+    // while (start <= num)
     // {
-    //     alert("Your number is bad");
+    //     res+= String(start)
+    //     start++
     // }
-    // else  {
-    //     alert("Your number is 0");
-    // }
+    // alert(res)
 
-// 2. Запросить у пользователя его возраст и проверить кор-
-// ректность введенных данных (0–120 лет).
-// let years = parseInt(prompt("Enter how old is you: "))
-// if (years > 120 && years < 0)
-// {
-//     alert("Nah you lying")
-// }
-// else 
-// {
-//     alert( "OK bro")
-// }
-
-
-// 3. Запросить у пользователя число и вывести его модуль
-// (|7| = 7, |-7| = 7).
-// let modul = parseInt(prompt("Enter your number: "))
-// if (modul < 0)
-// {
-//     alert(modul*(-1))
-// }
-// else {
-//     alert(modul)
-// }
-
-
-// 4. Запросить у пользователя время (часы, минуты, секунды)
-// и проверить корректность введенных данных.
-
-// let hours = parseInt(prompt("Enter the time in hours: "));
-// let minutes = parseInt(prompt("Enter the time in minutes: "));
-// let sec = parseInt(prompt("Enter time in secs: "));
-// if ((hours >= 0 && hours <= 23) && (minutes > 0 && minutes <= 59) && (sec > 0 && sec <= 59))
-// {
-//     alert("Right");
-// }
-// else 
-// {
-//     alert("Incorrect");
-// }
-
-
-// 5. Запросить координаты точки (x, y) и определить номер
-// четверти, в которую попала эта точка. Необходимо учесть
-// случаи попадания точки на оси X или Y или в начало
-// координат.
-
-// let x = parseInt(prompt("Enter your x: "));
-// let y = parseInt(prompt("Enter your y: "));
-// if (x > 0 && y > 0)
-// {
-//     alert("Firth")
-// }
-// else if (x < 0 && y > 0)
-// {
-//     alert("Second")
-// }
-// else if (x < 0 && y < 0)
-// {
-//     alert("Third")
-// }
-// else if (y < 0 && x > 0)
-// {
-//     alert("Fourth")
-// }
-// else 
-// {
-//     alert("ZEROO")
-// }
-
+    // 3.
+let num = prompt("Enter your num")
+let exponent = prompt("Enter the exponent")
+let res = 1
+let count = 0
+while (count < exponent) {
+  res = res * num
+  count++
+}
+alert(res);
 
 
 
